@@ -7,10 +7,10 @@ from resources.poneglyph_content import get_texts
 from resources.create_poneglyph_image import create_poneglyph_image
 from resources.random_folders import main as random_folders
 from resources.create_docker_file import create_docker_file
-from utils.luffy_xor import xor_cipher
-from utils.zoro_rc4 import generate_rc4
-from utils.usopp_cipher import usopp_cipher
-from utils.nami_chacha import nami_cipher
+from util.luffy_xor import xor_cipher
+from util.zoro_rc4 import generate_rc4
+from util.usopp_cipher import usopp_cipher
+from util.nami_chacha import nami_cipher
 
 
 active_challenges = {
